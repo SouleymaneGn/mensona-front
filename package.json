@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build && cp _redirects dist/mensona-auto/",
+    "build": "ng build && npx cpy _redirects dist/mensona-auto/browser/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
