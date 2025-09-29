@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mensona-auto
+    env: static
+    rootDir: .
+    buildCommand: npm ci && npm run build
+    publishDir: dist/mensona-auto/browser
